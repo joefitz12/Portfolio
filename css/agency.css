@@ -167,7 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -671,7 +671,8 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 ul.social-buttons li a {
@@ -691,4 +692,8 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #AAFAC8;
+}
+
+.portfolio-anchor {
+  color: #4E8098;
 }
